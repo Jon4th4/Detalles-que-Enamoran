@@ -1,0 +1,128 @@
+[
+  {
+    "categoria": "Recuerdos en foto",
+    "nombre": "Cuadro (impresión decorativa)",
+    "descripcion": "Impresión de alta calidad, marco incluido",
+    "precio": 500,
+    "imagen": "https://drive.google.com/uc?export=view&id=TU_ID_DE_IMAGEN"
+  },
+  {
+    "categoria": "Recuerdos en foto",
+    "nombre": "Tira de 3 fotos",
+    "descripcion": "Tira vertical con tres fotografías",
+    "precio": 250,
+    "imagen": ""
+  },
+  {
+    "categoria": "Recuerdos en foto",
+    "nombre": "Ramo de fotos",
+    "descripcion": "Ramo decorativo con fotos impresas",
+    "precio": 900,
+    "imagen": ""
+  },
+  {
+    "categoria": "Recuerdos en foto",
+    "nombre": "Foto estilo Polaroid",
+    "descripcion": "Formato Polaroid con diseño vintage",
+    "precio": 100,
+    "imagen": ""
+  },
+  {
+    "categoria": "Recuerdos en foto",
+    "nombre": "Caja pequeña con 5 fotos",
+    "descripcion": "Caja decorativa, 5 fotos 10x15",
+    "precio": 400,
+    "imagen": ""
+  },
+  {
+    "categoria": "Recuerdos en foto",
+    "nombre": "Caja grande con 12 fotos",
+    "descripcion": "Caja tamaño regalo, 12 fotos variadas",
+    "precio": 700,
+    "imagen": ""
+  },
+  {
+    "categoria": "Recuerdos en foto",
+    "nombre": "Letras Gigantes con Rosas Eternas",
+    "descripcion": "Letras personalizadas + rosas eternas de satín",
+    "precio": 6000,
+    "imagen": ""
+  },
+  {
+    "categoria": "Cajas combinadas",
+    "nombre": "Combo Especial",
+    "descripcion": "5 Fotos Polaroid + 1 Cuadro pequeño + 2 Confituras dulces",
+    "precio": 1000,
+    "imagen": ""
+  },
+  {
+    "categoria": "Cajas combinadas",
+    "nombre": "Combo Mensual",
+    "descripcion": "5 Fotos Polaroid + 1 Calendario del mes + 2 Confituras dulces",
+    "precio": 700,
+    "imagen": ""
+  },
+  {
+    "categoria": "Cajas combinadas",
+    "nombre": "Combo Premium",
+    "descripcion": "1 Cuadro + 2 Fotos Polaroid + 2 Confituras",
+    "precio": 1500,
+    "imagen": ""
+  },
+  {
+    "categoria": "Rosas eternas",
+    "nombre": "1 rosa eterna",
+    "descripcion": "Rosa de satín preservada, presentación en caja",
+    "precio": 1200,
+    "imagen": ""
+  },
+  {
+    "categoria": "Rosas eternas",
+    "nombre": "3 rosas eternas",
+    "descripcion": "Ramo pequeño de 3 rosas",
+    "precio": 2600,
+    "imagen": ""
+  },
+  {
+    "categoria": "Rosas eternas",
+    "nombre": "5 rosas eternas",
+    "descripcion": "Ramo mediano de 5 rosas",
+    "precio": 3800,
+    "imagen": ""
+  },
+  {
+    "categoria": "Rosas eternas",
+    "nombre": "10 rosas eternas",
+    "descripcion": "Ramo grande de 10 rosas",
+    "precio": 5000,
+    "imagen": ""
+  },
+  {
+    "categoria": "Rosas eternas",
+    "nombre": "15 rosas eternas",
+    "descripcion": "Ramo extra grande",
+    "precio": 6200,
+    "imagen": ""
+  },
+  {
+    "categoria": "Rosas eternas",
+    "nombre": "20 rosas eternas",
+    "descripcion": "Ramo lujo de 20 rosas",
+    "precio": 7600,
+    "imagen": ""
+  },
+  {
+    "categoria": "Agregados",
+    "nombre": "Mariposa decorativa",
+    "descripcion": "Adorno de mariposa para personalizar",
+    "precio": 100,
+    "imagen": ""
+  },
+  {
+    "categoria": "Agregados",
+    "nombre": "Corona decorativa",
+    "descripcion": "Corona floral pequeña",
+    "precio": 600,
+    "imagen": ""
+  }
+]

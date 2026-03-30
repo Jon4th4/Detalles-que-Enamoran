@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles que Enamoran — Regalos con alma · Santa Clara</title>
+    <meta name="description" content="Regalos artesanales personalizados en Santa Clara. Fotos, rosas eternas, cajas combinadas y más. Pedidos por WhatsApp.">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="overlay" id="overlay" role="presentation" aria-hidden="true"></div>
+
+    <div class="contenedor">
+
+        <aside class="sidebar" id="sidebar" aria-label="Navegacion principal">
+
+            <button class="sidebar-close" id="sidebar-close" aria-label="Cerrar menu">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="logo-wrap">
+                <div class="logo-svg" role="img" aria-label="Detalles que Enamoran">
+                    <div class="logo-corner logo-corner--tl"></div>
+                    <div class="logo-corner logo-corner--tr"></div>
+                    <div class="logo-corner logo-corner--bl"></div>
+                    <div class="logo-corner logo-corner--br"></div>
+                    <div class="logo-deco-row">
+                        <div class="logo-line"></div>
+                        <span class="logo-star-sm" aria-hidden="true">&#10022;</span>
+                        <div class="logo-line"></div>
+                    </div>
+                    <div class="logo-star-main" aria-hidden="true">&#10022;</div>
+                    <div class="logo-deco-row">
+                        <div class="logo-line"></div>
+                        <span class="logo-star-sm" aria-hidden="true">&#10022;</span>
+                        <div class="logo-line"></div>
+                    </div>
+                    <div class="logo-nombre">Detalles<em>que Enamoran</em></div>
+                    <div class="logo-tagline">Regalos con alma &middot; Santa Clara</div>
+                </div>
+            </div>
+
+            <nav aria-label="Categorias">
+                <p class="nav-label">Categorias</p>
+                <ul id="categorias-lista" role="list"></ul>
+            </nav>
+
+            <div class="contacto-panel">
+                <p class="contacto-label">Escribenos directamente</p>
+                <div class="contacto-botones">
+                    <a href="https://wa.me/5356096986" target="_blank" rel="noopener" class="btn-contacto btn-wa" aria-label="Contactar por WhatsApp">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        <span>WhatsApp</span>
+                        <i class="fas fa-arrow-right btn-arrow" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://t.me/tuusuario" target="_blank" rel="noopener" class="btn-contacto btn-tg" aria-label="Contactar por Telegram">
+                        <i class="fab fa-telegram" aria-hidden="true"></i>
+                        <span>Telegram</span>
+                        <i class="fas fa-arrow-right btn-arrow" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://m.me/tu.usuario" target="_blank" rel="noopener" class="btn-contacto btn-mg" aria-label="Contactar por Messenger">
+                        <i class="fab fa-facebook-messenger" aria-hidden="true"></i>
+                        <span>Messenger</span>
+                        <i class="fas fa-arrow-right btn-arrow" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <p class="contacto-nota">
+                    <i class="fas fa-clock" aria-hidden="true"></i>
+                    Pedidos con 3&ndash;5 dias de anticipacion
+                </p>
+            </div>
+
+        </aside>
+
+        <main class="contenido" id="main-content">
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="sidebar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <header class="hero" aria-label="Presentacion">
+                <div class="hero-bg-star" aria-hidden="true">&#10022;</div>
+                <div class="hero-circle hero-circle--1" aria-hidden="true"></div>
+                <div class="hero-circle hero-circle--2" aria-hidden="true"></div>
+                <div class="hero-frame" aria-hidden="true"></div>
+                <div class="hero-inner">
+                    <p class="hero-sup">
+                        <span aria-hidden="true">&#10022;</span>
+                        Santa Clara, Villa Clara
+                        <span aria-hidden="true">&#10022;</span>
+                    </p>
+                    <h1 class="hero-titulo">
+                        Cada regalo<br>
+                        <em>cuenta una historia</em>
+                    </h1>
+                    <p class="hero-sub">Detalles artesanales hechos con amor para los momentos que no se olvidan</p>
+                    <a href="https://wa.me/5356096986" target="_blank" rel="noopener" class="hero-cta">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        Hacer un pedido
+                    </a>
+                </div>
+            </header>
+
+            <section class="productos-seccion" aria-label="Catalogo de productos">
+                <div class="seccion-header">
+                    <h2 class="seccion-titulo">Nuestros regalos</h2>
+                    <p class="seccion-sub" id="contador-productos"></p>
+                </div>
+                <div id="productos-grid" class="grid-productos" role="list"></div>
+                <div id="sin-resultados" class="sin-resultados" hidden>
+                    <span aria-hidden="true">&#10022;</span>
+                    <p>No hay productos en esta categoria</p>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-inner">
+                    <span class="footer-star" aria-hidden="true">&#10022;</span>
+                    <p class="footer-frase">"Cada detalle importa, cada regalo enamora"</p>
+                    <p class="footer-copy">&copy; 2025 Detalles que Enamoran &middot; Santa Clara, Villa Clara</p>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
